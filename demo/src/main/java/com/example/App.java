@@ -36,6 +36,9 @@ public class App extends Application {
     }
 
     public static void main(String[] args) {
+        System.out.println("Trying to create a conflict...");
+        System.out.println("adding this to a new branch");
+        System.out.println("testing git stash branch");
         launch();
     }
 
